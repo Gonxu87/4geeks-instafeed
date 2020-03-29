@@ -1,0 +1,42 @@
+header{
+	background: white;
+	width: auto;
+	height: 40px;
+}
+
+body{
+	background: grey;
+}
+
+
+.flex-container > div {
+	background: white;
+	 width: 550px;
+  	margin: auto;
+  	margin-top: 20px;
+  	position: relative;
+  	justify-content: center;
+  	height: 500px;
+}
+
+.picture img{
+	width: 550px;
+	height: 300px;
+}
+
+.content {
+	align-content: center;
+	position: absolute;
+}
+
+.photonumber{
+	float: right;
+    display: inline-block;
+    right: 10px;
+}
+
+.description{
+	display: inline-block;
+    float: left;
+    left: 10px;
+}
